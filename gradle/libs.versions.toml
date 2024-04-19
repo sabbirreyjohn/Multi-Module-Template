@@ -92,4 +92,5 @@ jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "k
 hiltAndroid = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 gradle-secrets = {id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref ="gradle-secrets"}
 android-library = { id = "com.android.library", version.ref = "agp" }
+spotless = {id = "com.diffplug.spotless", version.ref ="spotless"}
 

@@ -18,12 +18,14 @@ plugins {
     alias(libs.plugins.jetbrainsKotlinAndroid) apply false
     alias(libs.plugins.hiltAndroid) apply false
     alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.spotless) apply false
+
 }
 
 fun BaseExtension.defaultConfig() {
     compileSdkVersion(34)
     defaultConfig {
-        minSdk = 26
+        minSdk = 30
         targetSdk = 34
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
