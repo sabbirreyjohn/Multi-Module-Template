@@ -21,6 +21,8 @@ plugins {
     alias(libs.plugins.spotless) apply false
     alias(libs.plugins.kotlin.serialization) apply false
     alias(libs.plugins.jetbrains.kotlin.jvm) apply false
+    alias(libs.plugins.ksp) apply false
+
 }
 
 fun BaseExtension.defaultConfig() {
